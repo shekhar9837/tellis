@@ -32,7 +32,7 @@ const ClientsSection = () => {
       <div className="container mx-auto px-4 flex items-center justify-center gap-8">
         {clients.map((client, index) => (
           <div key={index} className="flex justify-center items-center">
-            <img src={client.logo} alt={client.name} className="h-32 w-auto" />
+            <Image src={client.logo} alt={client.name} className="h-32 w-auto" />
           </div>
         ))}
       </div>

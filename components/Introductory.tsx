@@ -28,7 +28,7 @@ const Introductory = () => {
 
         {/* Description */}
         <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-          Barber is a person whose occupation is mainly to cut, dress, groom, style, and shave men's and boys' hair. A barber's place of work is known as a "barbershop" or a "barber's." Barbershops are also places of social interaction and public discourse. In some instances, barbershops are also public forums.
+          Barber is a person whose occupation is mainly to cut, dress, groom, style, and shave men&apos;s and boy&apos;s hair. A barber&apos;s place of work is known as a &quot;barbershop&quot; or a &quot;barber&apos;s.&quot; Barbershops are also places of social interaction and public discourse. In some instances, barbershops are also public forums.
         </p>
 
         {/* Call-to-Action Button */}

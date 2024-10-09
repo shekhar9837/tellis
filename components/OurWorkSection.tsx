@@ -33,7 +33,7 @@ const OurWorkSection = () => {
       <div className="container mx-auto px-4 flex items-center justify-center flex-wrap gap-8">
         {works.map((work) => (
           <div key={work.id} className="group overflow-hidden">
-            <img src={work.image} alt={work.title} className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+            <Image src={work.image} alt={work.title} className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
             
           </div>
         ))}
